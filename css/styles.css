@@ -925,6 +925,10 @@ ul {
 .send-btn:focus {
   background-color: #404bbf;
 }
+
+.footer-input-container {
+  margin-left: 80px;
+}
 .footer-form {
   display: flex;
   gap: 24px;
