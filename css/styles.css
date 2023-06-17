@@ -822,6 +822,7 @@ ul {
 }
 .modal-input::placeholder,
 .modal-textarea::placeholder {
+  font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
@@ -924,16 +925,9 @@ ul {
 .send-btn:focus {
   background-color: #404bbf;
 }
-.footer-label {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #ffffff;
-  padding-bottom: 16px;
-}
-.footer-field {
-  width: 453px;
-  height: 80px;
+.footer-form {
+  display: flex;
+  gap: 24px;
 }
 .footer-input {
   display: flex;
@@ -942,21 +936,35 @@ ul {
   width: 264px;
   height: 40px;
   border: 1px solid #ffffff;
+
+  padding-left: 16px;
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
-  padding-left: 16px;
-  background: #2e2f42;
+  color: #ffffff;
+}
+.footer-input::placeholder {
+  color: #ffffff;
 }
 .subscribe-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
-  width: 165px;
+  cursor: pointer;
+  min-width: 165px;
   height: 40px;
   background-color: #4d5ae5;
   border: none;
+  border-radius: 4px;
 }
 .subscribe-btn:hover,
 .subscribe-btn:focus {
@@ -964,4 +972,13 @@ ul {
 }
 .icon-send {
   fill: #ffffff;
+  margin-left: 16px;
+}
+.subscribe-text {
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
 }
