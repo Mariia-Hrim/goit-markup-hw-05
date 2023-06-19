@@ -811,6 +811,9 @@ ul {
 .modal-field {
   margin-bottom: 8px;
 }
+.subscribe-text {
+  margin-bottom: 16px;
+}
 .modal-input {
   display: flex;
   align-items: center;
